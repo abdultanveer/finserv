@@ -3,10 +3,11 @@ import java.util.Scanner;
 public class EvenOdd {  
 	public static void main (String args[])  
 	{  
-		Student abdul = new Student();
+		Student abdul = new Student("ansari",123,true);
 		
-		abdul.name = "ansari";
-		abdul.age = 123;
+		/*
+		 * abdul.name = "ansari"; abdul.age = 123;
+		 */
 		//creating Scanner class object     
 		Scanner scan=new Scanner(System.in);  // new keyword will create the box in mem
 		System.out.print("Enter the number: ");  //break point
