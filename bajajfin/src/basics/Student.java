@@ -18,7 +18,17 @@ public class Student {
 			this.age = age;
 			this.isElgible = isElgible;
 		}
+
+		
+
+		public Student(String name, int age) {
+			super();
+			this.name = name;
+			this.age = age;
+		}
 	
+		
+		
 	
 
 }

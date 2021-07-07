@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class EvenOdd {  
 	public static void main (String args[])  
 	{  
-		Student abdul = new Student("ansari",123,true);
+		Student abdul = new Student("ansari",123,true);//new = mem allocation
+		System.out.println("name of student is "+abdul.name);
 		
 		/*
 		 * abdul.name = "ansari"; abdul.age = 123;
