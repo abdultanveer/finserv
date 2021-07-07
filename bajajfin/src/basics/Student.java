@@ -1,6 +1,7 @@
 package basics;
 
 /**
+ * POJO -- plain old java object
  * javadoc
  * this is like a piece of paper with instructions
  * @author Admin
@@ -23,10 +24,9 @@ public class Student {
 
 		
 
-		public Student(String name, int age) {
-			super();
-			this.name = name;
-			this.age = age;
+		public Student(String sname, int sAge) {
+			this.name = sname;
+			this.age = sAge;
 		}
 	
 		public void isEligible() {

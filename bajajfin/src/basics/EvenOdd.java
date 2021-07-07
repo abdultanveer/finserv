@@ -1,8 +1,13 @@
 package basics;
 import java.util.Scanner;  
 public class EvenOdd {  
-	public static void main (String args[])  
-	{  
+	public static void main (String args[])  {  //main method is director whos lights camera action
+		Customer customer = new Customer();
+		customer.walkIn();
+		customer.browseProducts();
+		customer.shopProducts();
+		
+		
 		Student.display();
 		System.out.println(Student.COLLEGE_NAME);
 
