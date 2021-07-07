@@ -11,6 +11,8 @@ public class Student {
 	int age;
 	boolean isElgible;
 	
+	static String COLLEGE_NAME = "IIT"; //static - it doesn't change
+	
 		public Student() {}//empty constructor
 
 		public Student(String name, int age, boolean isElgible) { //constructor with params
@@ -27,8 +29,17 @@ public class Student {
 			this.age = age;
 		}
 	
-		
-		
-	
+		public void isEligible() {
+			if(isElgible) {
+			System.out.println("student is elgible");
+		}
+			else {
+			System.out.println("student is not eligible");	
+			}
+			}
+
+		public static void display() {
+			System.out.println("displaying students");
+		}
 
 }

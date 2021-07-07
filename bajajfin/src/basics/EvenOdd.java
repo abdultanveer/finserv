@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class EvenOdd {  
 	public static void main (String args[])  
 	{  
+		Student.display();
+		System.out.println(Student.COLLEGE_NAME);
+
 		Student abdul = new Student("ansari",123,true);//new = mem allocation
 		System.out.println("name of student is "+abdul.name);
-		
+		System.out.println(abdul.isElgible);
 		/*
 		 * abdul.name = "ansari"; abdul.age = 123;
 		 */
@@ -28,9 +31,9 @@ public class EvenOdd {
 	 * it prints whether the given no is odd or even
 	 * @param num
 	 */
-	public static void findEvenOdd(int num)  
-	{  
+	public static void findEvenOdd(int num)	{  
 		//method body  
+		int a = 10; //local variable
 		if(num%2==0)   
 			System.out.println(num+" is even");   
 		else   
