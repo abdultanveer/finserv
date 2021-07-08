@@ -7,6 +7,9 @@ public class EvenOdd {
 		customer.browseProducts();
 		customer.shopProducts();
 		
+		Rectangle rectangle = new Rectangle(10, 15);
+		System.out.println(rectangle.getPerimeter());
+		
 		
 		Student.display();
 		System.out.println(Student.COLLEGE_NAME);
@@ -44,6 +47,11 @@ public class EvenOdd {
 		else   
 			System.out.println(num+" is odd");  
 	}  
+	
+	public int add(int a, int b) {
+		return a+b;
+	}
+	
 }
 
 //

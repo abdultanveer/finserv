@@ -1,5 +1,8 @@
 package basics;
 
+import lombok.Getter;
+import lombok.Setter;
+
 /**
  * POJO -- plain old java object
  * javadoc
@@ -7,6 +10,7 @@ package basics;
  * @author Admin
  *
  */
+@Getter @Setter
 public class Student {
 	String name;
 	int age;
@@ -42,4 +46,7 @@ public class Student {
 			System.out.println("displaying students");
 		}
 
+
+
+		
 }
